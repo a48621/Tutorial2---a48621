@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 7798348081102054414}
   - component: {fileID: 5248136291541982781}
   - component: {fileID: 9115536359669648507}
+  - component: {fileID: 1359825844701519537}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -792,6 +793,19 @@ CapsuleCollider:
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
+--- !u!114 &1359825844701519537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798348081094629318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361546ebc2c179542a96c836ff160be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
 --- !u!1 &7798348081094629320
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7798348081094265832}
   - component: {fileID: 7798348081097743054}
+  - component: {fileID: 3961961401978026753}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -909,6 +924,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.3211945, y: -0.000323236, z: 0.0055948943}
     m_Extent: {x: 0.71350014, y: 0.72880006, z: 0.21759997}
   m_DirtyAABB: 0
+--- !u!114 &3961961401978026753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798348081094629320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361546ebc2c179542a96c836ff160be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
 --- !u!1 &7798348081094629322
 GameObject:
   m_ObjectHideFlags: 0
